@@ -1,1 +1,25 @@
-Hola GitHub
+# Hola GitHub
+
+0. En Windows crea una carperta en Documentos "ProgramacionITallerI"
+1. Crear cuenta en GitHub https://github.com/signup?source=login
+2. Instalar Visual Code https://code.visualstudio.com/download
+    2.1 Actualiza a VS
+    2.2 En la terminal dirigete a la carpeta de Windows "cd C:\Users\migue\Documents\ProgramacionITallerI"
+    2.3 En "File" abre la carpeta de Windows desde "Open Folder" se visualizara en el explorador.
+3. Instalar GitHub CLI https://cli.github.com/
+    3.1 Probar GitHub CLI
+        -   gh --version
+        -   gh auth login (Una unica vez)
+        -   gh repo create ProgramacionITallerI --public --source=. --remote=origin --push
+4. Instalar Git - https://git-scm.com/install/
+    4.1 Probar Git 
+        -   git --version
+        -   git init
+        -   git remote add origin https://github.com/<tuusuario>/<MiPrimerRepo>.git
+        -   Crea un README en el folder que visualizas en el Explorador que debe ser la carpeta de Windows.
+        -   git branch -M main
+        -   git add .
+        -   git commit -m "Hola GitHub"
+        -   git push -u origin main
+5. Instala Pyton en VS https://code.visualstudio.com/docs/languages/python
+
